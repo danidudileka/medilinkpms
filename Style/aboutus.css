@@ -1,0 +1,16 @@
+.content h1,
+.content h2 {
+  color: var(--secondary);
+  margin-top: 16px;
+}
+.content ul {
+  list-style-type: none;
+  padding: 0;
+}
+.content ul li {
+  margin-bottom: 0.5rem;
+}
+
+.content p {
+  text-align: justify;
+}

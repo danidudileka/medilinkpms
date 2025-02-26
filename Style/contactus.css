@@ -1,0 +1,79 @@
+.contact-info,.contact-form{
+  flex: 1;
+  height: 675px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  margin-right: 16px;
+  background-color: var(--secondary);
+}
+
+.contact-form {
+  margin-left: 16px;
+  background-color: #fff;
+}
+
+.contact-form:hover, .contact-info:hover{
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container ul{
+  list-style: none;
+}
+
+.contact-form h2, .contact-info h2{
+  margin-bottom: 8px;
+}
+
+.contact-title{
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.contact-title2{
+  margin-top: 24px;
+}
+
+.contact-form h2 {
+  color: var(--secondary);
+}
+
+.location{
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+  color: #000;
+  font-weight: bold;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  margin-top: 20px;
+  background: var(--secondary);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background:var(--primary);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}

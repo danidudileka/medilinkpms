@@ -1,0 +1,78 @@
+.dashboard-container {
+  max-width: 1100px;
+  margin: 20px auto;
+}
+
+.dashboard-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-name {
+  color: var(--primary);
+}
+
+.dashboard-signout a {
+  text-decoration: none;
+  background-color: var(--primary);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dashboard-signout a:hover {
+  background-color: var(--secondary);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+hr {
+  margin-top: 8px;
+  border: 1px solid var(--secondary);
+  opacity: 0.2;
+}
+
+.dashboard-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 16px 0;
+}
+
+.dashboard-titles {
+  color: var(--secondary);
+  flex: 1;
+}
+
+.dashboard-details {
+  flex: 2;
+}
+
+.patient-details-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.patient-details {
+  background-color: #f9f9f9;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  text-align: justify;
+}
+
+.patient-details h3 {
+  color: var(--secondary);
+}
+
+.patient-details p {
+  padding-bottom: 8px;
+}
+
+.patient-details p {
+  margin: 0;
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Medilink</title>
+    <link rel="stylesheet" href="Style/style.css" />
+    <link rel="stylesheet" href="Style/contactus.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <h1 class="logo">MediLink</h1>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="services.php">Services</a></li>
+
+          <li><a href="aboutus.html">About us</a></li>
+
+          <li>
+            <a href="contactus.html"><b>Contact</b></a>
+          </li>
+
+          <li><a href="signin.html">Account</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="content">
+      <h1>Contact Us</h1>
+      <p>
+        We're here to help you with any inquiries, support needs, or feedback.
+      </p>
+    </div>
+
+    <div class="container">
+      <!-- Contact Information -->
+      <div class="contact-info">
+        <h2>Get in Touch with Us</h2>
+        <p class="contact-title">Numbers:</p>
+        <ul>
+          <li>General Inquiries: +94 112 345 678</li>
+          <li>Emergency Support: +94 712 345 678 (24/7)</li>
+        </ul>
+        <p class="contact-title">Email Addresses:</p>
+        <ul>
+          <li>Customer Care : MediLinkpms@email.com</li>
+          <li>Business Related Inquiries : business@medilink.com</li>
+        </ul>
+
+        <h2 class="contact-title2">Connect with Us Online</h2>
+        <p class="contact-title">Follow us on:</p>
+        <ul>
+          <li><p>Facebook</p></li>
+          <li><p>LinkedIn</p></li>
+        </ul>
+
+        <h2 class="contact-title2">Address</h2>
+        <p>No.10, Colombo 04, Sri Lanka</p>
+        <img class="location" src="Images/location.png" alt="location">
+      </div>
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form action="php/contact_process.php" method="POST">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="John Doe"
+            required
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="johndoe@email.com"
+          />
+
+          <label for="phone">Phone Number (Optional):</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="+94 123456789"
+          />
+
+          <label for="inquiry-type">Inquiry Type:</label>
+          <select id="inquiry-type" name="inquiry-type" required>
+            <option value="General">General Inquiry</option>
+            <option value="Support">Technical Support</option>
+            <option value="Billing">Billing</option>
+            <option value="Feedback">Feedback</option>
+          </select>
+
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Your message"
+            required
+          ></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="item1">
+          <p class="footer-title">MediLink Patient Management System</p>
+          <p>
+            Streamlining healthcare with secure, efficient, and user-friendly
+            solutions, empowering patients for better medical
+            management and care.
+          </p>
+          <br />
+          <p class="footer-title">Address</p>
+          <p>No.10, Colombo 04, Sri Lanka</p>
+          <br />
+
+          <p class="footer-title">Contact</p>
+          <p>+94 123456789</p>
+          <p>MediLinkpms@email.com</p>
+        </div>
+        <div></div>
+        <div class="item2">
+          <p class="footer-title">Navigation</p>
+          <ul class="footer-nav">
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="services.php">Services</a></li>
+
+            <li><a href="aboutus.html">About us</a></li>
+
+            <li><a href="contactus.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="item3">
+          <p class="footer-title">Social Media</p>
+          <ul class="footer-nav">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      <p id="credits">Development Team 07</p>
+    </footer>
+  </body>
+</html>

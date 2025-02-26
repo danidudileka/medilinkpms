@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style/style.css" />
+    <link rel="stylesheet" href="Style/sign.css" />
+    <title>Signup Page</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 class="logo">MediLink</h1>
+        <ul class="menu">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+
+          <li><a href="services.php">Services</a></li>
+
+          <li><a href="aboutus.html">About us</a></li>
+
+          <li><a href="contactus.html">Contact</a></li>
+
+          <li><a href="signin.html">Account</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="signup-container">
+      <div class="form-section">
+        <h1>Sign in to account</h1>
+        <p>Doesn't have an account? <a href="signup.html">Create account</a></p>
+        <form method="post" action="php/signin.php">
+          <label for="username">Username</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="john_doe"
+            required
+            class="inputs-below"
+          />
+
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="********"
+            required
+            class="inputs-below"
+          />
+
+          <button type="submit" class="btn">Sign In</button>
+
+          <a href="recover_password.html" id="forget-btn">Forgot Password?</a>
+        </form>
+      </div>
+
+      <div class="image-section"></div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="item1">
+          <p class="footer-title">MediLink Patient Management System</p>
+          <p>
+            Streamlining healthcare with secure, efficient, and user-friendly
+            solutions, empowering patients for better medical management and
+            care.
+          </p>
+          <br />
+          <p class="footer-title">Address</p>
+          <p>No.10, Colombo 04, Sri Lanka</p>
+          <br />
+
+          <p class="footer-title">Contact</p>
+          <p>+94 123456789</p>
+          <p>MediLinkpms@email.com</p>
+        </div>
+        <div></div>
+        <div class="item2">
+          <p class="footer-title">Navigation</p>
+          <ul class="footer-nav">
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="services.php">Services</a></li>
+
+            <li><a href="aboutus.html">About us</a></li>
+
+            <li><a href="contactus.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="item3">
+          <p class="footer-title">Social Media</p>
+          <ul class="footer-nav">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      <p id="credits">Development Team 07</p>
+    </footer>
+  </body>
+</html>
