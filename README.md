@@ -1,8 +1,6 @@
 # MediLink Patient Management System
 
-CIS4005 PRES1
-
-Team 07
+GROUP07_CIS4005_PRAC1
 
 H.D. Danidu Dileka Perera 
 CL/BSCSE-CMU/07/07  st20314527 
@@ -13,8 +11,9 @@ CL/BSCSE-CMU/07/24  st20315415
 J.P.R Shehara Ruwindi Fernando
 CL/BSCSE-CMU/07/17  st20314538
 
-<h1>SQL Code to create the database and tables</h1>
+## SQL Code to create the database and tables
 
+```sql
 CREATE DATABASE crud_system;
 USE crud_system;
 
@@ -32,7 +31,6 @@ CREATE TABLE patient (
     medical_history VARCHAR(250),
     security_answer VARCHAR(100) NOT NULL
 );
-
 
 CREATE TABLE medical_checkups (
     id INT AUTO_INCREMENT PRIMARY KEY,
